@@ -1,11 +1,12 @@
 import streamlit as st 
 
 st.title('Where Life leads You After Gradution?')
+st.write('“ if the path before you is clear, you’re probably on someone else’s “')
 
 st.write("""
 As a fresh graduate, feeling lost is part of the journey. Your mind is likely filled with questions like, 
 "Is there even a chance for fresh graduates in the Saudi market?" I will answer this question based on real datasets, 
-and hopefully, we can find some hope.
+and hopefully, you can find some hope.
 """)
 
 # Job Opportunities Section
@@ -22,4 +23,9 @@ st.write('The salary range for fresh graduates in Saudi Arabia is predominantly 
 
 st.header("The Truth Behind Fresh graduates Opportunities")
 st.image('./Q4.JPG')
-st.write('The data suggests growing opportunities for fresh graduates')
+st.write("Data shows plenty of opportunities for fresh graduates in the Saudi market. With the right skills and determination, you can find a path that suits you.")
+
+st.write('Take a step forward; it will get easier!')
+
+
+
