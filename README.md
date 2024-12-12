@@ -15,4 +15,4 @@ The project follows the standard steps of a data science workflow:
 * Visualizing and communicating results through a data storytelling approach.
 
 ### Outcomes
-read the data strory 
+<a href="https://saudi-job-posting-analysis.streamlit.app/">click here to read the data story</a>.
