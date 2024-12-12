@@ -1,5 +1,4 @@
 # Saudi Job Posting Analysis
-link: https://line-usecase-5.streamlit.app/
 
 ## Problem Statement
 * What proportion of job postings is attributed to each region within Saudi Arabia?
