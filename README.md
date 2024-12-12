@@ -1,5 +1,5 @@
 # Saudi Job Posting Analysis
-This project analyzes job postings from the Jadara platform to gain insights into the Saudi Arabia job market.
+This project analyzes job postings from the Jadara platform to gain insights into the current state of the Saudi Arabia job market, focusing on regional distribution, potential gender bias, and career opportunities for both experienced and fresh graduates.
 ## Problem Statement
 * What proportion of job postings is attributed to each region within Saudi Arabia?
 * Is there a gender preference indicated in the job postings?
