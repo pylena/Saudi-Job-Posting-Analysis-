@@ -8,9 +8,7 @@ data = pd.read_csv('./jadarat_processed.csv')
 st.title('Where Life leads You After Gradution?')
 
 st.write("""
-As a fresh graduate, feeling lost is part of the journey. Your mind is likely filled with questions like, 
-"Is there even a chance for fresh graduates in the Saudi market?" I will answer this question based on real datasets, 
-and hopefully, you can find some hope.
+Stepping into the professional world as a fresh graduate can be intimidating. The uncertainty of the job market, especially in a dynamic economy like Saudi Arabia's, can leave many feeling lost and anxious. This analysis aims to provide valuable insights into the current job landscape, empowering you on your career journey.
 """)
 
 # Job Opportunities Section
@@ -36,7 +34,7 @@ fig.update_traces(
 st.plotly_chart(fig, use_container_width=True)
 st.write("Without a doubt, Riyadh holds the largest share of job postings, followed by Makkah and the Eastern Province, while other regions contribute a smaller proportion.")
 st.write("Now that we have a sense of job opportunities across KSA, let's find out if there is any gender preference.")
-st.header("Males VS Females")
+st.header("Gender Diversity in the Job Market")
 gender = data['gender'].value_counts()
 fig = go.Figure(data=[go.Pie(
                        labels=['Both', 'Males', 'Females'], 
@@ -47,17 +45,16 @@ fig = go.Figure(data=[go.Pie(
 
 
 st.plotly_chart(fig, use_container_width=True)
+st.write('The majority of job postings are open to both males and females, indicating a positive trend towards gender equality in the workplace.')
 
-st.write("In the Saudi job market, gender distribution job positions shows a balanced preference, with 39 % of opportunities available to both genders, 32 % specifically for males, and 27 % for female.")
-
-st.header("Salary Range for Fresh Graduates")
+st.header("Salary Expectations for Fresh Graduates")
 fresh_grads = data[data['exper'] == 0]
 fig = px.histogram(x=fresh_grads['Salary'], color_discrete_sequence=px.colors.sequential.dense[2:], labels={'x':'Salary'})
 st.plotly_chart(fig, use_container_width=True)
 
 st.write('The salary range for fresh graduates in Saudi Arabia is predominantly around 4,000 SAR.')
 
-st.header("The Truth Behind Fresh graduates Opportunities")
+st.header("Myth vs. Reality: Opportunities for Fresh Graduates")
 
 with_experience = data[data['exper'] > 0]
 job_counts = [len(fresh_grads), len(with_experience)]
@@ -84,7 +81,7 @@ fig.update_layout(
 )
 st.plotly_chart(fig, use_container_width=True)
 
-st.write("Data shows plenty of opportunities for fresh graduates in the Saudi market. With the right skills and determination, you can find a path that suits you.")
+st.write("A significant number of job postings are specifically tailored to fresh graduates, demonstrating that with the right skills and a proactive approach, you can secure a fulfilling caree.")
 
 st.write('Take a step forward; it will get easier!')
 
