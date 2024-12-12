@@ -6,8 +6,7 @@
 * What is the expected salary range for fresh graduates?
 * Are job opportunities predominantly targeted at individuals with experience, or is there room for fresh graduates as well?
 ### Data Source 
-The analysis is based on job postings data in Saudi Arabia, collected from the Jadara platform. The dataset is available on [Kaggle] (https://www.kaggle.com/datasets/moayadalkhozayem/job-postings-in-saudi-arabia).
-
+The analysis is based on job postings data in Saudi Arabia, collected from the Jadara platform. The dataset is available on <a href="https://www.kaggle.com/datasets/moayadalkhozayem/job-postings-in-saudi-arabia">Kaggle</a>.
 ### Workflow 
 The project follows the standard steps of a data science workflow:
 * Defining the problem statement.
