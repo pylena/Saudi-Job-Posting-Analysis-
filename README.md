@@ -8,7 +8,7 @@ This project analyzes job postings from the Jadara platform to gain insights int
 ### Data Source 
 The analysis is based on job postings data in Saudi Arabia, collected from the Jadara platform. The dataset is available on <a href="https://www.kaggle.com/datasets/moayadalkhozayem/job-postings-in-saudi-arabia">Kaggle</a>.
 ### Workflow 
-The project follows the standard steps of a data science workflow:
+The project follows the standard steps of a data analysis workflow:
 * Defining the problem statement.
 * preparing data.
 * Conducting exploratory data analysis (EDA).
